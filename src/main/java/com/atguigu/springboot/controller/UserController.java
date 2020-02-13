@@ -20,6 +20,8 @@ public class UserController {
 		System.out.println("222");
 		System.out.println("11");
 		System.out.println("10");
+		System.out.println("00");
+		
 		return adminService.getAdminById(id);
 	}
 }
