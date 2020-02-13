@@ -16,13 +16,10 @@ public class UserController {
 	
 	@RequestMapping("/get/{id}")
 	public TAdmin getAdminById(@PathVariable("id") Integer id) {
-<<<<<<< HEAD
 		System.out.println("111");
 		System.out.println("222");
-=======
 		System.out.println("11");
 		System.out.println("10");
->>>>>>> branch 'master' of https://github.com/shanxiangyu/Gitgit.git
 		return adminService.getAdminById(id);
 	}
 }
