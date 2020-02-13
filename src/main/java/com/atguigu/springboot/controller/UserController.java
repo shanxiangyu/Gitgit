@@ -17,6 +17,7 @@ public class UserController {
 	@RequestMapping("/get/{id}")
 	public TAdmin getAdminById(@PathVariable("id") Integer id) {
 		System.out.println("00");
+		
 		return adminService.getAdminById(id);
 	}
 }
